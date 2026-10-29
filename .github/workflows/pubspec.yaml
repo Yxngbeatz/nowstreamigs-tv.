@@ -1,0 +1,19 @@
+name: nowstreamigs_tv
+description: A custom IPTV player.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  shared_preferences: ^2.2.2
+  media_kit: ^1.1.10
+  media_kit_video: ^1.2.4
+  media_kit_safe_uri: ^0.1.2
+
+flutter:
+  uses-material-design: true
