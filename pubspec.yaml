@@ -1,0 +1,23 @@
+name: nowstreamigs_tv
+description: A new Flutter project for IPTV.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  media_kit: ^1.1.10
+  media_kit_video: ^1.2.4
+  media_kit_native: ^1.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
